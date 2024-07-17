@@ -3,6 +3,8 @@
 
 
 class Square:
+    """Representation of Square"""
+
     width = 0
     height = 0
 
@@ -12,6 +14,7 @@ class Square:
 
     def area_of_my_square(self):
         """ Area of the square """
+
         return self.width * self.width
 
     def perimeter_of_my_square(self):
@@ -27,3 +30,4 @@ if __name__ == "__main__":
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_my_square())
+
