@@ -4,11 +4,10 @@
 
 class Square:
     """Representation of Square"""
-
     width = 0
     height = 0
 
-def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):
         """Initialize new obj at point of
         creation
         """
