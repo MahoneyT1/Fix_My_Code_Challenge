@@ -2,6 +2,7 @@
 """Square class representing a class"""
 
 
+
 class Square:
     """Representation of Square"""
     width = 0
@@ -16,12 +17,11 @@ class Square:
 
     def area_of_my_square(self):
         """ Area of the square """
-
-        return self.width * self.width
+        return (self.width * self.width)
 
     def perimeter_of_my_square(self):
         """ perimeter of a square"""
-        return 4 * self.width
+        return (4 * self.width)
 
     def __str__(self):
         """prints the str representation"""
