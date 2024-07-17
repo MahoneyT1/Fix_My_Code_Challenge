@@ -4,7 +4,6 @@
 
 class Square:
     """Representation of Square"""
-
     width = 0
     height = 0
 
@@ -12,9 +11,8 @@ class Square:
         """Initialize new obj at point of
         creation
         """
-        if kwargs:
-            for key, value in kwargs.items():
-                setattr(self, key, value)
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
     def area_of_my_square(self):
         """ Area of the square """
