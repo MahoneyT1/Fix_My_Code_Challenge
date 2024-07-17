@@ -2,9 +2,9 @@
 """Square class representing a class"""
 
 
-
 class Square:
     """Representation of Square"""
+
     width = 0
     height = 0
 
