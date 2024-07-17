@@ -2,8 +2,9 @@
 """Square class representing a class"""
 
 
-class Square():
+class Square:
     """Representation of Square"""
+
     def __init__(self, *args, **kwargs):
         """Initialize new obj at point of
         creation
